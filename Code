@@ -1,0 +1,23 @@
+int CW = 7;
+int CCW = 6;
+
+
+void setup() {
+
+pinMode(CW,OUTPUT);
+pinMode(CCW,OUTPUT);
+
+}
+
+void loop()
+{
+
+  
+  digitalWrite(CW,HIGH);
+  delay(5000);
+  digitalWrite(CW,LOW);
+  digitalWrite(CCW,HIGH);
+  delay(5000);
+  digitalWrite(CCW,LOW);
+
+}
